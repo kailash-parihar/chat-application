@@ -2,7 +2,7 @@
 
 import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
-import issueTokenAndSetCookie from "../utils/issueTokenAndSetCookie .js";
+import issueTokenAndSetCookie from "../utils/issueTokenAndSetCookie.js";
 import cloudinary from "../configurations/cloudinary.config.js";
 
 // SIGNUP CONTROLLER: Handles user registration.
